@@ -10,7 +10,7 @@
 
 /* Carousel base class */
 .carousel {
-    height: 240px;
+    height: 340px;
     margin-bottom: 30px;
 }
 /* Since positioning the image, we need to help out the caption */
@@ -20,15 +20,15 @@
 
 /* Declare heights because of positioning of img element */
 .carousel .item {
-    height: 240px;
-    background-color: #777;
+    height: 340px;
+    background-color: #17a2b8;
 }
 .carousel-inner > .item > img {
     position: absolute;
     top: 0;
     left: 0;
     min-width: 100%;
-    height: 240px;
+    height: 340px;
 }
 
 @media (min-width: 768px) {
@@ -82,11 +82,11 @@ footer {
     bottom: 0;
     width: 100%;
     /* Set the fixed height of the footer here */
-    height: 160px;
+    height: 100px;
     background: #444;
     color: white;
     text-shadow: 1px 1px 1px black;
-    padding: 40px 0;
+    padding: 5px 0;
 }
 
 /* RESPONSIVE CSS
